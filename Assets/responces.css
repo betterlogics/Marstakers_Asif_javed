@@ -1,0 +1,24 @@
+ @media screen and (max-width:600px) {
+    .outer-layer {
+        margin-left: 0px;
+    }
+    .home-image {
+        width: 100%;
+        padding-left: 4rem;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .card {
+        width: 100%;
+    }
+    .card-box {
+        width: 100%;
+
+    }
+ }
+ @media (min-width:600px) and (max-width:768) {
+    .card-box {
+        width: 100%;
+    }
+ }
