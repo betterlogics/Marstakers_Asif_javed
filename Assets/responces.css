@@ -2,6 +2,28 @@
     .outer-layer {
         margin-left: 0px;
     }
+     .heading_2 {
+        padding-left: 2rem;
+        text-align: center;
+    }
+    .heading_1 {
+        padding-left: 2rem;
+        text-align: center;
+    }
+    .paraone {
+        text-align: center;
+    }
+    .double-btn {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #telegram {
+        padding: 10px 5px;
+    }
+    .bg-transparent {
+        margin-top: 3rem;
+    }
     .home-image {
         width: 100%;
         padding-left: 4rem;
@@ -32,5 +54,9 @@
  @media (min-width:600px) and (max-width:768) {
     .card-box {
         width: 100%;
+    }
+    .double-btn {
+        justify-content: center;
+        align-items: center;
     }
  }
