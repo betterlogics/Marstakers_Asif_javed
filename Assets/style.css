@@ -17,11 +17,23 @@
     font-family: Kanit, sans-serif;
     color: rgb(110, 69, 217);
 }
+
 .home-div img {
     width: 100%;
 }
 .btn_div button {
     border-radius: 20px;
+}
+.heading_1 {
+    color: #5856d6;
+}
+.heading_2 {
+    color: rgb(40, 13, 95);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.text-italic {
+    font-size: 1.5rem;
 }
 .btn-talegram {
     background-color: rgb(31, 199, 212);
@@ -116,15 +128,45 @@
     border-radius: 15px;
 }
 .telegram-1 {
-    width: 10%;
+    width: 100%;
+    transition: width .100ms;
 }
+.telegram-1:hover {
+    width: 110%;
+ }
 .twitter-1 {
-    width: 400%;
+    width: 50%;
+    transition: width .100ms;
+}
+.twitter-1:hover{
+    width: 55%;
 }
 .bscscan-1 {
-    width: 10%;
+    width: 100%;
+    transition: width .100ms;
 }
-.dapp-logo {
-    width: 10%;
+.bscscan-1:hover {
+    width: 110%;
+}
+.dapp-logo  {
+    width: 100%;
+    transition: width 100ms;
+}
+.dapp-logo:hover  {
+    width: 110%;
 }
 
+.social-media{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    
+}
+.footer-top{
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    background: rgb(39, 38, 44);
+
+}
